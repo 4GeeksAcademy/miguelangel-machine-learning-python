@@ -1,3 +1,11 @@
 __pycache__
 .env
 .learn
+# Imágenes del dataset (demasiado pesadas para GitHub)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Checkpoint intermedio del entrenamiento
+models/best_model.keras
